@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>통조림 무료나눔</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f5f5f5;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    button {
+      font-size: 22px;
+      padding: 18px 32px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      background: #4caf50;
+      color: white;
+    }
+
+    button:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+
+<body>
+
+  <button id="openBtn">통조림 무료나눔 1</button>
+
+  <script>
+    const deepLink = "ponos-battlecatskr://ponos/2026inukan.html?v=lny01_Wf9JFcuV";
+
+    document.getElementById("openBtn").addEventListener("click", () => {
+      window.location.href = deepLink;
+    });
+  </script>
+
+</body>
+</html>
